@@ -18,8 +18,8 @@ repositories {
 
 dependencies {
     api("org.roaringbitmap:RoaringBitmap:1.3.0")
-    compileOnly("org.elasticsearch:elasticsearch:9.2.0")
-    testImplementation("org.elasticsearch:elasticsearch:9.2.0")
+    compileOnly("org.elasticsearch:elasticsearch:9.3.3")
+    testImplementation("org.elasticsearch:elasticsearch:9.3.3")
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 }
